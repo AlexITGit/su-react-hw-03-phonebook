@@ -1,0 +1,25 @@
+p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.3rem;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.wrap,
+.btn,
+.item {
+  margin: 0.7rem;
+}
+.main {
+  min-width: 300px;
+  max-width: fit-content;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.input {
+  display: block;
+}
